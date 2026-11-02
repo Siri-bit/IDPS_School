@@ -1,0 +1,6 @@
+{
+  "name": "International Delhi Public School Society",
+  "description": "Official institutional portal and franchise network platform for International Delhi Public School Society, New Delhi. Discover K-12 and pre-school models, 90-day launch roadmap, infrastructure standards, and student life showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
