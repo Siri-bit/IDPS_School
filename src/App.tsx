@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { TopBar } from './components/TopBar';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
+import { AnimatedStatsSection } from './components/AnimatedStatsSection';
 import { PresidentSection } from './components/PresidentSection';
 import { AboutSection } from './components/AboutSection';
 import { FranchiseModelsSection } from './components/FranchiseModelsSection';
@@ -43,6 +44,9 @@ export default function App() {
       {/* 3. Hero Section with Quick Intent Checker */}
       <main className="flex-1">
         <HeroSection onOpenApplyModal={handleOpenApplyModal} />
+
+        {/* 3b. Premium Animated Statistics Section with Scroll-Triggered Count-Up */}
+        <AnimatedStatsSection onOpenApplyModal={handleOpenApplyModal} />
 
         {/* 4. President's Message & Leadership Spotlight - Narayan Karn */}
         <PresidentSection />
